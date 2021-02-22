@@ -1,23 +1,14 @@
 {
-  "name": "signalhub",
-  "version": "4.9.0",
-  "description": "Simple signalling server that can be used to coordinate handshaking with webrtc or other fun stuff.",
+  "name": "signalhub-light-client",
+  "version": "1.0.0",
+  "description": "Light-weight, ESM-friendly client for signalhub",
   "main": "index.js",
-  "scripts": {
-    "start": "node ./bin.js listen",
-    "test": "standard && tape test.js"
-  },
-  "bin": {
-    "signalhub": "./bin.js"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/mafintosh/signalhub.git"
+    "url": "https://github.com/mitschabaude/signalhub-light-client.git"
   },
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mafintosh/signalhub/issues"
-  },
-  "homepage": "https://github.com/mafintosh/signalhub"
+  "homepage": "https://github.com/mitschabaude/signalhub-light-client"
 }
