@@ -34,9 +34,9 @@ let hub = signalhub('my-app-name', 'https://signalhub1.example.com')
 The `appName` is used to namespace the subscriptions/broadcast so you can reuse the
 signalhub for more than one app.
 
-#### `hub.subscribe(channel, msg => { /* do something */ })`
+#### `hub.subscribe(channel, message => { /* do something */ })`
 
-Subscribe to a channel on the hub. `msg` can be any output of `JSON.parse`.
+Subscribe to a channel on the hub. `message` can be any output of `JSON.parse`.
 
 #### `hub.broadcast(channel, message)`
 
